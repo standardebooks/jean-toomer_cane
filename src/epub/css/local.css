@@ -1,6 +1,31 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
+}
+
+figcaption p + p{
+	text-indent: 0;
+}
+
+figure.full-page{
+	margin: 0;
+	max-height: 100%;
+	break-before: page;
+	break-after: page;
+	break-inside: avoid;
+	text-align: center;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
