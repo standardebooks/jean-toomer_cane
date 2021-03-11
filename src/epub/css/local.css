@@ -56,11 +56,29 @@ header{
 	margin-top: 1em;
 }
 
+p.right{
+	text-align: right;
+}
+
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
 
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
+}
+
+[epub|type~="z3998:stage-direction"]{
+	font-style: italic;
+	text-indent: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+
 }
