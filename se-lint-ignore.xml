@@ -6,22 +6,4 @@
 			<reason>No illustrator attribution required as images are uncredited graphical design elements.</reason>
 		</ignore>
 	</file>
-	<file path="part-3-kabnis.xhtml">
-		<ignore>
-			<code>t-036</code>
-			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
-		</ignore>
-		<ignore>
-			<code>t-003</code>
-			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
-		</ignore>
-		<ignore>
-			<code>t-051</code>
-			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
-		</ignore>
-		<ignore>
-			<code>t-042</code>
-			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
