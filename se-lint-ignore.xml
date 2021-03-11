@@ -9,25 +9,19 @@
 	<file path="part-3-kabnis.xhtml">
 		<ignore>
 			<code>t-036</code>
-			<reason>Temporarily errant quotation marks until I can do a discrete [Editorial] commit.</reason>
+			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
 		</ignore>
 		<ignore>
 			<code>t-003</code>
-			<reason>Temporarily errant quotation marks until I can do a discrete [Editorial] commit.</reason>
+			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
 		</ignore>
 		<ignore>
 			<code>t-051</code>
-			<reason>Temporarily errant quotation marks until I can do a discrete [Editorial] commit.</reason>
-		</ignore>
-	</file>
-	<file path="part-*.xhtml">
-		<ignore>
-			<code>t-029</code>
-			<reason>Temporarily ignoring these two-dot ellipses until I can do a discrete [Editorial] commit.</reason>
+			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
 		</ignore>
 		<ignore>
 			<code>t-042</code>
-			<reason>Temporarily ignoring these two-dot ellipses until I can do a discrete [Editorial] commit.</reason>
+			<reason>Temporarily ignore errant quotation marks until I can do a discrete [Editorial] commit.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
