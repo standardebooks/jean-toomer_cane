@@ -50,8 +50,9 @@ footer{
 	margin-top: 1em;
 }
 
-p.age, /*establishes character's age*/
-p.setting{ /*indicates change of time or location*/
+p.age,
+p.setting{
+	/* indicates change of time or location */
 	font-style: italic;
 	text-indent: 1em;
 	margin-top: 1em;
@@ -59,7 +60,8 @@ p.setting{ /*indicates change of time or location*/
 }
 
 #part-1-carma p.setting,
-p.distant{ /*symbolizes interpersonal distance*/
+p.distant{
+	/* symbolizes interpersonal distance */
 	text-align: right;
 }
 
