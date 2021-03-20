@@ -50,7 +50,16 @@ footer{
 	margin-top: 1em;
 }
 
-p.right{
+p.age, /*establishes character's age*/
+p.setting{ /*indicates change of time or location*/
+	font-style: italic;
+	text-indent: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#part-1-carma p.setting,
+p.distant{ /*symbolizes interpersonal distance*/
 	text-align: right;
 }
 
@@ -66,13 +75,6 @@ p span.i2{
 
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:stage-direction"]{
-	font-style: italic;
-	text-indent: 1em;
-	margin-top: 1em;
-	margin-bottom: 1em;
 }
 
 /* All dedications */
