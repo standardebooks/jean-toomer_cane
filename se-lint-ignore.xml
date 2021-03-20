@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="loi.xhtml">
-		<ignore>
-			<code>m-034</code>
-			<reason>No illustrator attribution required as images are uncredited graphical design elements.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>
