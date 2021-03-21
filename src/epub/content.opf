@@ -50,7 +50,7 @@
 		<meta property="se:production-notes">(1) The author consistently uses elided words sans apostrophes when depicting vernacular speech; these have been preserved in their original form. (2) The author used varying numbers of full-stops to indicate ellipses; these have been standardized for screenreader accessibility. (3) The author used visual cues to divide the book into three sections, but did not title or number them. These sections have been given generic titles (i.e. Part I, Part II, Part III) to improve accessibility. (4) The images that precede each section have been re-proportioned to work on displays of varying sizes. (5) There is scholarly debate about whether the prose sections in Cane are chapters in a novel or stories in a story cycle. Accordingly, the content type for those sections encompasses both: epub:type="chapter se:short-story." The poetry sections use epub:type="chapter z3998:poem".</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cane</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cane_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jean-toomer_cane</meta>
 		<dc:creator id="author">Jean Toomer</dc:creator>
 		<meta property="file-as" refines="#author">Toomer, Jean</meta>
@@ -60,11 +60,11 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="author-of-introduction">Waldo Frank</dc:contributor>
-		<meta property="file-as" refines="#author">Frank, Waldo</meta>
-		<meta property="se:name.person.full-name" refines="#author">Waldo David Frank</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Waldo_Frank</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50025719</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aui</meta>
+		<meta property="file-as" refines="#author-of-introduction">Frank, Waldo</meta>
+		<meta property="se:name.person.full-name" refines="#author-of-introduction">Waldo David Frank</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/Waldo_Frank</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50025719</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
 		<dc:contributor id="artist">Carducius Plantagenet Ream</dc:contributor>
 		<meta property="file-as" refines="#artist">Ream, Carducius Plantagenet</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/C._P._Ream</meta>
