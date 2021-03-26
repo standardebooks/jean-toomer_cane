@@ -64,18 +64,18 @@ p span.i2{
 	font-variant: small-caps;
 }
 
-#part-1-carma p:nth-of-type(3),
-#part-1-esther p:nth-child(2),
-#part-1-esther-2 p:nth-of-type(3),
-#part-2-bona-and-paul-2 p:nth-last-of-type(3){
+#carma p:nth-of-type(3),
+#esther p:nth-child(2),
+#esther-2 p:nth-of-type(3),
+#bona-and-paul-2 p:nth-last-of-type(3){
 	text-indent: 1em;
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
-#part-1-carma p:nth-of-type(3),
-#part-2-theater p:nth-of-type(35),
-#part-2-theater p:nth-of-type(37){
+#carma p:nth-of-type(3),
+#theater p:nth-of-type(35),
+#theater p:nth-of-type(37){
 	text-align: right;
 }
 
