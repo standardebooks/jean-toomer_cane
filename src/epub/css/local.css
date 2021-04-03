@@ -7,13 +7,20 @@ figure img{
 	max-width: 100%;
 }
 
-figure.full-page{
-	margin: 0;
-	max-height: 100%;
-	break-before: page;
-	break-after: page;
-	break-inside: avoid;
-	text-align: center;
+#illustration-1 img,
+#illustration-2 img,
+#illustration-3a img{
+  	position: absolute;
+  	top: 5%;
+  	right: 5%;
+  	width: 33%;
+ }
+
+#illustration-3b img{
+	position: absolute;
+	bottom:	5%;
+	right: 5%;
+	width: 33%;
 }
 
 footer{
