@@ -10,15 +10,15 @@ figure img{
 #illustration-1 img,
 #part-2 img,
 #illustration-3a img{
-  	position: absolute;
-  	top: 5%;
-  	right: 5%;
-  	width: 33%;
- }
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	width: 33%;
+}
 
 #illustration-3b img{
 	position: absolute;
-	bottom:	5%;
+	bottom: 5%;
 	right: 5%;
 	width: 33%;
 }
