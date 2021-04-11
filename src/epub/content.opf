@@ -2,15 +2,15 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/jean-toomer/cane</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-04-11T18:34:47Z</dc:date>
+		<meta property="dcterms:modified">2021-04-11T18:34:47Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
-		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="se:role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -24,6 +24,7 @@
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
@@ -42,14 +43,14 @@
 			&lt;p&gt;Published in 1923, &lt;a href="https://standardebooks.org/ebooks/jean-toomer"&gt;Jean Toomer’s&lt;/a&gt; &lt;i&gt;Cane&lt;/i&gt; was widely heralded as one of the first masterpieces of the Harlem Renaissance, and its author as “a bright morning star” of the movement. Toomer himself, however, was reluctant to embrace an explicitly racialized identity, preferring to define himself as simply an American writer.&lt;/p&gt;
 			&lt;p&gt;Inspired in part by Sherwood Anderson’s short story cycle &lt;i&gt;Winesburg, Ohio&lt;/i&gt;, Toomer conceived &lt;i&gt;Cane&lt;/i&gt; as a mosaic of intricately connected vignettes, poems, stories, songs, and even play-like dialogues. Drawing on both modernist poetry and African-American spirituals, Toomer imbues each form with a lyrical and often experimental sensibility.&lt;/p&gt;
 			&lt;p&gt;The work is structured in three distinct but unnamed parts. The first is set in rural Georgia and focuses on the lives of women and the men who desire them. The second part moves to the urban enclaves of the North in the years following the Great Migration. The third and final part returns to the rural South and explores the interactions between African-Americans from the North and those living in the South.&lt;/p&gt;
-			&lt;p&gt;Although sales languished in the later years of Toomer’s life, the book was reissued after his death and re-discovered by a new generation of American writers. Alice Walker described &lt;i&gt;Cane&lt;/i&gt; as one of the most important books in her own development as a writer: “I love it passionately, could not possibly exist without it.”&lt;/p&gt;
+			&lt;p&gt;Although sales languished in the later years of Toomer’s life, the book was reissued after his death and rediscovered by a new generation of American writers. Alice Walker described &lt;i&gt;Cane&lt;/i&gt; as one of the most important books in her own development as a writer: “I love it passionately, could not possibly exist without it.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/60093</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001417524</dc:source>
 		<meta property="se:production-notes">(1) The author consistently uses elided words sans apostrophes when depicting vernacular speech; these have been preserved in their original form. (2) The author used varying numbers of full-stops to indicate ellipses; these have been standardized for screenreader accessibility. (3) The author used visual cues to divide the book into three sections, but did not title or number them. These sections have been given generic titles (i.e. Part I, Part II, Part III) to improve accessibility.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">42623</meta>
+		<meta property="se:reading-ease.flesch">86.81</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cane_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jean-toomer_cane</meta>
 		<dc:creator id="author">Jean Toomer</dc:creator>
@@ -58,7 +59,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Jean_Toomer</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50013727</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="author-of-introduction">Waldo Frank</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Frank, Waldo</meta>
 		<meta property="se:name.person.full-name" refines="#author-of-introduction">Waldo David Frank</meta>
@@ -83,11 +84,15 @@
 		<meta property="file-as" refines="#producer-1">Peterson, Zoey Leigh</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.zoeyleighpeterson.com/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
