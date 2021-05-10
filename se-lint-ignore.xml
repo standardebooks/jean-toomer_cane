@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="content.opf">
-		<ignore>
-			<code>s-020</code>
-			<reason>The image in the part-1.xhtml file serves as the halftitle, so the halftitle.xhtml has been omitted to avoid redundancy.</reason>
-		</ignore>
-	</file>
 	<file path="bona-and-paul.xhtml">
 		<ignore>
 			<code>t-057</code>
