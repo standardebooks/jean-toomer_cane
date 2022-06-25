@@ -38,6 +38,7 @@
 		<meta property="term" refines="#subject-2">sh2008111210</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">An experimental and highly lyrical novel exploring the African-American experience.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Published in 1923, &lt;a href="https://standardebooks.org/ebooks/jean-toomer"&gt;Jean Toomer’s&lt;/a&gt; &lt;i&gt;Cane&lt;/i&gt; was widely heralded as one of the first masterpieces of the Harlem Renaissance, and its author as “a bright morning star” of the movement. Toomer himself, however, was reluctant to embrace an explicitly racialized identity, preferring to define himself as simply an American writer.&lt;/p&gt;
