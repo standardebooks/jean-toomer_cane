@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="*.xhtml">
+		<ignore>
+			<code>y-035</code>
+			<reason>Dialogue is in a unique prose style that doesn’t require single quotes for elided letters.</reason>
+		</ignore>
+	</file>
 	<file path="bona-and-paul.xhtml">
 		<ignore>
 			<code>t-057</code>
