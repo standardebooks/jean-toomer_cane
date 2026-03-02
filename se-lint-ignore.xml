@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="*.xhtml">
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Dialogue is in a unique prose style that doesn’t require single quotes for elided letters.</reason>
 		</ignore>
 	</file>
 	<file path="bona-and-paul.xhtml">
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Text is as-is in print.</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
-		<ignore>
-			<code>m-027</code>
+		<ignore code="m-027">
 			<reason>The book is not quite a short story collection.</reason>
 		</ignore>
 	</file>
