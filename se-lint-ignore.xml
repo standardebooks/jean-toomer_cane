@@ -7,6 +7,7 @@
 	</file>
 	<file path="bona-and-paul.xhtml">
 		<ignore code="t-057">
+			<line>49</line>
 			<reason>Text is as-is in print.</reason>
 		</ignore>
 	</file>
