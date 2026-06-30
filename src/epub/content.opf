@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/jean-toomer/cane</dc:identifier>
 		<dc:date>2021-04-11T18:34:47Z</dc:date>
 		<meta property="dcterms:modified">2021-04-11T18:34:47Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -36,9 +37,9 @@
 		<meta property="term" refines="#subject-1">sh2007100196</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008111210</meta>
-		<meta property="se:subject">Fiction</meta>
-		<meta property="se:subject">Poetry</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Poetry</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">An experimental and highly lyrical novel exploring the African-American experience.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Published in 1923, &lt;a href="https://standardebooks.org/ebooks/jean-toomer"&gt;Jean Toomer’s&lt;/a&gt; &lt;i&gt;Cane&lt;/i&gt; was widely heralded as one of the first masterpieces of the Harlem Renaissance, and its author as “a bright morning star” of the movement. Toomer himself, however, was reluctant to embrace an explicitly racialized identity, preferring to define himself as simply an American writer.&lt;/p&gt;
@@ -49,28 +50,29 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/60093</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001417524</dc:source>
-		<meta property="se:production-notes">(1) The author consistently uses elided words sans apostrophes when depicting vernacular speech; these have been preserved in their original form. (2) The author used varying numbers of full-stops to indicate ellipses; these have been standardized for screenreader accessibility. (3) The author used visual cues to divide the book into three sections, but did not title or number them. These sections have been given generic titles (i.e. Part I, Part II, Part III) to improve accessibility.</meta>
-		<meta property="se:word-count">42094</meta>
-		<meta property="se:reading-ease.flesch">86.81</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cane_(novel)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/jean-toomer_cane</meta>
+		<meta property="schema:wordCount">42094</meta>
+		<meta property="schema:educationalLevel">86.81</meta>
+		<link href="https://en.wikipedia.org/wiki/Cane_(novel)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/jean-toomer_cane" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Jean Toomer</dc:creator>
 		<meta property="file-as" refines="#author">Toomer, Jean</meta>
-		<meta property="se:name.person.full-name" refines="#author">Nathan Pinchback Toomer</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Jean_Toomer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50013727</meta>
+		<meta property="schema:alternateName" refines="#author">Nathan Pinchback Toomer</meta>
+		<link href="https://en.wikipedia.org/wiki/Jean_Toomer" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50013727.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="author-of-introduction">Waldo Frank</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Frank, Waldo</meta>
-		<meta property="se:name.person.full-name" refines="#author-of-introduction">Waldo David Frank</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/Waldo_Frank</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50025719</meta>
+		<meta property="schema:alternateName" refines="#author-of-introduction">Waldo David Frank</meta>
+		<link href="https://en.wikipedia.org/wiki/Waldo_Frank" refines="#author-of-introduction" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50025719.html" refines="#author-of-introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Carducius Plantagenet Ream</dc:contributor>
 		<meta property="file-as" refines="#artist">Ream, Carducius Plantagenet</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/C._P._Ream</meta>
+		<link href="https://en.wikipedia.org/wiki/C._P._Ream" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
@@ -80,11 +82,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Zoey Leigh Peterson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Peterson, Zoey Leigh</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.zoeyleighpeterson.com/</meta>
+		<link href="https://www.zoeyleighpeterson.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -94,7 +96,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
