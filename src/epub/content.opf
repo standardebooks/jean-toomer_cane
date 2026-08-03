@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/jean-toomer/cane</dc:identifier>
 		<dc:date>2021-04-11T18:34:47Z</dc:date>
@@ -40,13 +40,13 @@
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Poetry</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:description id="description">An experimental and highly lyrical novel exploring the African-American experience.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An experimental and highly lyrical novel exploring the African-American experience.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Published in 1923, &lt;a href="https://standardebooks.org/ebooks/jean-toomer"&gt;Jean Toomer’s&lt;/a&gt; &lt;i&gt;Cane&lt;/i&gt; was widely heralded as one of the first masterpieces of the Harlem Renaissance, and its author as “a bright morning star” of the movement. Toomer himself, however, was reluctant to embrace an explicitly racialized identity, preferring to define himself as simply an American writer.&lt;/p&gt;
 			&lt;p&gt;Inspired in part by Sherwood Anderson’s short story cycle &lt;i&gt;Winesburg, Ohio&lt;/i&gt;, Toomer conceived &lt;i&gt;Cane&lt;/i&gt; as a mosaic of intricately connected vignettes, poems, stories, songs, and even play-like dialogues. Drawing on both modernist poetry and African-American spirituals, Toomer imbues each form with a lyrical and often experimental sensibility.&lt;/p&gt;
 			&lt;p&gt;The work is structured in three distinct but unnamed parts. The first is set in rural Georgia and focuses on the lives of women and the men who desire them. The second part moves to the urban enclaves of the North in the years following the Great Migration. The third and final part returns to the rural South and explores the interactions between African-Americans from the North and those living in the South.&lt;/p&gt;
 			&lt;p&gt;Although sales languished in the later years of Toomer’s life, the book was reissued after his death and rediscovered by a new generation of American writers. Alice Walker described &lt;i&gt;Cane&lt;/i&gt; as one of the most important books in her own development as a writer: “I love it passionately, could not possibly exist without it.”&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/60093</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001417524</dc:source>
