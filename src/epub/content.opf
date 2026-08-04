@@ -40,7 +40,7 @@
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Poetry</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:abstract>An experimental and highly lyrical novel exploring the African-American experience.</dc:abstract>
+		<meta property="schema:abstract">An experimental and highly lyrical novel exploring the African-American experience.</meta>
 		<dc:description>
 			&lt;p&gt;Published in 1923, &lt;a href="https://standardebooks.org/ebooks/jean-toomer"&gt;Jean Toomer’s&lt;/a&gt; &lt;i&gt;Cane&lt;/i&gt; was widely heralded as one of the first masterpieces of the Harlem Renaissance, and its author as “a bright morning star” of the movement. Toomer himself, however, was reluctant to embrace an explicitly racialized identity, preferring to define himself as simply an American writer.&lt;/p&gt;
 			&lt;p&gt;Inspired in part by Sherwood Anderson’s short story cycle &lt;i&gt;Winesburg, Ohio&lt;/i&gt;, Toomer conceived &lt;i&gt;Cane&lt;/i&gt; as a mosaic of intricately connected vignettes, poems, stories, songs, and even play-like dialogues. Drawing on both modernist poetry and African-American spirituals, Toomer imbues each form with a lyrical and often experimental sensibility.&lt;/p&gt;
